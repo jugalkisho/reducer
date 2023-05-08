@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import HeaderContainer from './Containers/HeaderContainer';
+// import Apple from './Components/Apple';
+// import Jugal from './Components/Class';
+//import User from './Components/Home';
+import HomeContainer from './Containers/HomeContainer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
+    <HeaderContainer/>
+    <HomeContainer/>
     </div>
   );
 }
